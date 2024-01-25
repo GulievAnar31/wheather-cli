@@ -1,0 +1,17 @@
+{
+  "name": "wheather",
+  "version": "1.0.0",
+  "main": "wheather.js",
+  "type": "module",
+  "scripts": {
+    "start": "sudo node wheather.js"
+  },
+  "bin": {
+    "wheather": "wheather.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "chalk": "^5.3.0"
+  }
+}
